@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saha Fitness</title>
+</head>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="project1.css">
+<style>
+    /* CSS reset */
+
+    body {
+        font-family: 'Baloo Bhai 2', cursive;
+        margin: 0px;
+        padding: 0px;
+        background: url('image/gym2.jpg');
+        background-position: left;
+        color: white;
+
+    }
+
+    .left {
+        position: absolute;
+        left: 23px;
+        top: 9px;
+        display: inline-block;
+        /* border: 2px solid red; */
+        font-family: 'Baloo Bhai 2', cursive;
+    }
+
+    .left img {
+        width: 75px;
+        border-radius: 15px;
+
+    }
+
+    .left div {
+        text-align: center;
+    }
+
+    .center {
+        display: block;
+        width: 42%;
+        margin: 40px auto;
+        /* border: 2px solid red; */
+
+    }
+
+    .right {
+        position: absolute;
+        right: 29px;
+        top: 45px;
+        display: inline-block;
+        /* border: 2px solid red; */
+        line-height: 0px;
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 20px;
+
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 34px 20px;
+
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        color: grey;
+        text-decoration: underline;
+    }
+
+    .btn {
+        margin: 0px 10px;
+        color: white;
+        background-color: black;
+        padding: 3px 10px;
+        border-radius: 10px;
+        font-size: 15px;
+        cursor: pointer;
+        font-family: 'Baloo Bhai 2', cursive;
+    }
+
+    .btn:hover {
+        background-color: rgb(61, 58, 58);
+    }
+
+    .container {
+        border:2px solid white;
+        margin: 67px 49px;
+        padding: 26px 50px;
+        width: 30%;
+        display: block;
+        border-radius: 14px;
+    }
+
+    .form-group input {
+        text-align: left;
+        display: block;
+        width: 298px;
+        padding: 6px;
+        border: 2px solid black;
+        margin: 2px auto;
+        border-radius: 4px;
+    }
+
+    .container button {
+        display: block;
+        width: 25%;
+        margin: auto;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <!-- for logo -->
+            <img src="image/logo.png" alt="">
+            <div> Fitness</div>
+
+        </div>
+        <div class="center">
+            <!-- for navigation -->
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness</a> </li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <!-- for buttons -->
+            <button class="btn">Call Us now</button>
+            <button class="btn">email us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join Our New Gym In your locality now</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Name">
+
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your email-id">
+
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your contact-no">
+
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your age">
+
+            </div>
+            <button class="btn">Submit</button>
+
+        </form>
+    </div>
+</body>
+
+</html>
